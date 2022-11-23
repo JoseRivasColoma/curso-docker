@@ -111,15 +111,17 @@ Ejemplo
 - `docker build -t <image_name>:<image_tag>`
     * -t: tag
 
-# Login and logout from Dockerhub
+### Login and logout from Dockerhub
 
 - `docker login`: Ingresar
 - `docker logout`: Salir
 
-# Upload & pull images to & from Dockerhub
+### Upload & pull images to & from Dockerhub
 
 - `docker push <username>/<image_name>:<image_tag>` (el nombre de la imagen debe ser identico a <username>/<image_name>)
 - `docker push joserivascoloma/node-app-test:tagname`
 - `docker tag <old_image_name>:<old_image_tag> <new_image_name>:<new_image_tag>`: Crea una copia de una imagen y renombra el tag
 
 - `docker pull <image_name>:<tag_name>` : Descarga una imágen desde Dockerhub
+
+# Sección 3: Managing data & working with volumes
